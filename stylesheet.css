@@ -1,0 +1,90 @@
+
+* {
+  box-sizing: border-box;
+  font-family: helvetica, Arial, sans-serif;
+
+}
+h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container {
+	margin: 1.5%;
+}
+.row {
+	margin: 10px auto;
+	position: relative;
+	width: 90%;
+	border: 3px solid black;
+	background: lightgray;
+}
+.section-item {
+	position: absolute;
+	right: 0px;
+	padding: 5px 30px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black; 
+	font-weight: bold;
+	font-size: 125%;
+}
+#chicken {
+	background: pink;
+}
+#beef {
+	background: red;
+	color: white;
+}
+
+#sushi {
+	background: yellow;
+}
+.section-description {
+	position: relative;
+	top: 30px;
+	width: 90%;
+	height: 150px;
+	margin: 16px auto 30px auto;
+	text-align: justify;
+}
+
+
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  .col-dt-1, .col-dt-2, .col-dt-3, .col-dt-4, .col-dt-5, .col-dt-6, .col-dt-7, .col-dt-8, .col-dt-9, .col-dt-10, .col-dt-11, .col-dt-12 {
+    float: left;
+  
+  }
+  .col-dt-1 {width: 8.33%; }
+  .col-dt-2 {width: 16.66%;}
+  .col-dt-3 {width: 25%;}
+  .col-dt-4 {width: 33.33%;}
+  .col-dt-5 {width: 41.66%;}
+  .col-dt-6 {width: 50%;}
+  .col-dt-7 {width: 58.33%;}
+  .col-dt-8 {width: 66.66%;}
+  .col-dt-9 {width: 74.99%;}
+  .col-dt-10 {width: 83.33%;}
+  .col-dt-11 {width: 91.66%;}
+  .col-dt-12 {width: 100%;}
+}
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-tab-1, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-tab-10, .col-tab-11, .col-tab-12 {
+    float: left;
+   
+  }
+  .col-tab-1 {width: 8.33%;}
+  .col-tab-2 {width: 16.66%;}
+  .col-tab-3 {width: 25%;}
+  .col-tab-4 {width: 33.33%;}
+  .col-tab-5 {width: 41.66%;}
+  .col-tab-6 {width: 50%;}
+  .col-tab-7 {width: 58.33%;}
+  .col-tab-8 {width: 66.66%;}
+  .col-tab-9 {width: 74.99%;}
+  .col-tab-10 {width: 83.33%;}
+  .col-tab-11 {width: 91.66%;}
+  .col-tab-12 {width: 100%;}
+}
